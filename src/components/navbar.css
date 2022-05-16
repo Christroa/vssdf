@@ -1,0 +1,35 @@
+div.navbar {
+  position: absolute;
+  z-index: 1;
+}
+
+div.navbar nav {
+  background-color: orangered;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4rem;
+}
+
+div.navbar nav li {
+  display: inline-block;
+}
+
+div.navbar nav li a {
+  color: #fff;
+  border-radius: 2rem;
+  padding: .3rem 1rem;
+  margin: 0 .5rem;
+}
+
+div.navbar nav li a.donate {
+  background: #fff;
+  color: orangered;
+}
+
+div.navbar nav li a.active, div.navbar nav li a:hover {
+  background: #a72f04;
+}
+/*# sourceMappingURL=navbar.css.map */

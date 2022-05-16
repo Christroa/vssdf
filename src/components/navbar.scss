@@ -1,0 +1,26 @@
+div.navbar {
+    position: absolute;
+    z-index: 1;
+    nav{
+        background-color:orangered;
+        display:grid;
+        align-items:center;
+        height: 4rem; 
+    li {
+        display: inline-block; 
+        a {
+            color: #fff;
+            border-radius: 2rem;
+            padding: .3rem 1rem;margin: 0 .5rem;
+            &.donate {
+                background: #fff; 
+                color: orangered; 
+            }&.active, &:hover {
+                background: rgb(167, 47, 4);  
+            }
+            
+            
+        }
+    }
+}
+}
