@@ -1,10 +1,11 @@
 div.navbar {
   position: absolute;
   z-index: 1;
+  width: 100%;
 }
 
 div.navbar nav {
-  background-color: orangered;
+  background-color: red;
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
